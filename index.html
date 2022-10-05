@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js-file.js" defer>
+    </script>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Rock, Paper, Scissors</h1>
+        <p>First to 5 points, wins the game</p>
+    </div>
+    <div class="game-container">
+        <div class="player-container">
+            <div class="score-box">
+                <div class="user-profile">
+                    <h2 class="player-label">Player</h2>
+                    <img src="images/ironman3.jpeg" height="100px">
+                </div>
+                <div class="score-card">
+                    <h3>Score</h3>
+                    <h2 class="user-score">0</h2>
+                </div>
+            </div>
+            <div class="user-buttons">
+                <button class="buttons" id="rock">Rock</button>
+                <button class="buttons" id="paper">Paper</button>
+                <button class="buttons" id="scissors">Scissors</button>
+            </div>
+        </div>
+        <div class="comp-container">
+            <div class="score-box">
+                <div class="comp-profile">
+                    <h2 class="comp-label">Computer</h2>
+                    <img src="images/ultron1.png" height="100px">
+                </div>
+                <div class="score-card">
+                    <h3>Score</h3>
+                    <h2 class="computer-score">0</h2>
+                </div>
+            </div>
+            <div class="comp-buttons">
+                <button class="buttons" id="rock">Rock</button>
+                <button class="buttons" id="paper">Paper</button>
+                <button class="buttons" id="scissors">Scissors</button>
+            </div>
+        </div>
+    </div>
+    <div class="reset-button">
+        <button id="reset">Play Again</button>
+    </div>
+    <div class="round-container">
+        <div id="results-container">
+
+        </div>
+    </div>
+
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <span class="close">&times;</span>
+            <h1>GAME OVER!</h1>
+        </div>
+    </div>
+</body>
+
+</html>
